@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <canvas height="512" width="512" id="app"></canvas>
+    <script src="https://cdn.jsdelivr.net/gh/brendan-duncan/webgpu_recorder/webgpu_recorder.js"></script>
+    <script>
+        const recorder = new WebGPURecorder();
+    </script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
